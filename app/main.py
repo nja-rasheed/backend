@@ -71,6 +71,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://frontend-1-17do.onrender.com",
+        "https://agent-frontend-rf4w.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
